@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.5.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> 
 	</parent>
 	<groupId>com.spring.rest.gateway</groupId>
 	<artifactId>gateway</artifactId>
@@ -52,6 +52,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>    
+                	<mainClass>com.spring.rest.gateway</mainClass>
+            	</configuration>
 			</plugin>
 		</plugins>
 	</build>
